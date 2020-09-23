@@ -8,3 +8,73 @@
   width: 70%;
   margin: 0 auto;
 }
+.orange_button{
+  border-radius: 5px;
+  background-color: orange;
+  padding: 5px;
+  color: white;
+}
+
+/* proprietà corpo pagina */
+.nav1{
+  /* debug */
+
+  /* height: 100px; */
+  background-color: #c2d4dd;
+  /* fine debug */
+}
+.nav2{
+  /* debug */
+  height: 100px;
+  background-color: white;
+  /* fine debug */
+}
+.box1{
+  width: 50%;
+  height: 50px;
+  /* background-color:green; */
+  display: inline-block;
+}
+ul#menu_box1 li {
+  font-family: sans-serif;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    float: left;
+    color: #3B5998;
+}
+ul#menu_box1 li a {
+
+    font-size: 15px;
+    /* font-weight: bold; */
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+
+.box2{
+  width: 50%;
+  height: 50px;
+  /* background-color:blue; */
+  float: right;
+  display: inline-block;
+}
+ul#menu_box2 li {
+  font-family: sans-serif;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    float: right;
+
+}
+ul#menu_box2 li a {
+    color: #3B5998;
+    font-size: 15px;
+    /* font-weight: bold; */
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+.jambotron img{
+  width: 100vw;
+}
