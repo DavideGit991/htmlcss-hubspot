@@ -1,0 +1,10 @@
+/* proprietà generali */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.resize{
+  width: 70%;
+  margin: 0 auto;
+}
