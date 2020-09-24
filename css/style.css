@@ -15,6 +15,15 @@
   padding: 5px;
   color: white;
 }
+.section_box{
+  /* debug */
+  margin: 20px 0 ;
+  height: 200px;
+  background-color:none;
+  border: solid;
+  /*FINE debug*/
+}
+
 .box{
   /* debug */
   /* width: 50%; */
@@ -142,7 +151,52 @@ ul#menu_box3 li a {
   FINE debug */
 }
 .jambotron img{
-  position: absolute;
   z-index: 10;
   width: 100%;
+}
+/* divisore proprietà */
+.divisore{
+   debug
+
+  width: 100%;
+  height: 50px;
+  background-color:#00bda5;
+  /* border: solid; */
+   FINE debug
+}
+/* PROPRIETà SECTIONE1BOX1 */
+.column3_section1{
+  float: left;
+  height: 200px;
+  width: 30%;
+  border: solid green;
+}
+.column_section1{
+  /* debug */
+  float: left;
+  margin-right: 5%;
+  height: 200px;
+  width: 30%;
+  border: solid green;
+  /*FINE debug*/
+}
+
+/* PROPRIETA' SEZIONE 2 */
+
+.section2_back{
+  /* debug */
+  margin: 20px 0 ;
+  /* height: 200px; */
+  background-color:#00bda5;
+  /*border: solid;
+  FINE debug*/
+}
+.column_section2{
+  /* debug */
+  float: left;
+  /* margin-right: 5%; */
+  height: 50%;
+  width: 25%;
+  border: solid green;
+  /*FINE debug*/
 }
