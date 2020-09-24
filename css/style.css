@@ -1,4 +1,4 @@
-                                    /* PROPRIETA GENERALI */
+  /* PROPRIETA GENERALI */
 *{
   margin:0;
   padding: 0;
@@ -17,11 +17,15 @@
 }
 .section_box {
   /* debug */
+  position: relative;
   margin: 20px 0 ;
-  height: 200px;
+  /* height: 200px; */
   background-color:none;
   border: solid;
   /*FINE debug*/
+}
+.text_centre{
+  text-align: center;
 }
 
 .box{
@@ -44,7 +48,7 @@
   color: #33475b;
 }
 p{
-  font-size: 11px;
+  font-size: 12px;
   margin: 20px 0;
 }
   /* PROPRIETAì PAGINA */
@@ -127,8 +131,8 @@ ul#menu_box3 li a {
 .logo{
   padding: 15px;
 }
-/* JAMBOTRON PROPRIETà */
-.jambotron{
+/* jumbotron PROPRIETà */
+.jumbotron{
   position: relative;
 }
 .jambo_written{
@@ -144,26 +148,51 @@ ul#menu_box3 li a {
   border: solid;
   FINE debug */
 }
-.jambotron img{
+.jumbotron img{
   z-index: 10;
   width: 100%;
 }
 /* divisore proprietà */
 .divisore{
-   debug
-
+   /* debug */
   width: 100%;
   height: 50px;
   background-color:#00bda5;
   /* border: solid; */
    FINE debug
 }
+
 /* PROPRIETà SECTIONE1BOX1 */
+.learnmore{
+padding: 15px;
+margin-left: 108px;
+}
+.imgcube, .imgbook{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  height: auto;
+}
+.imgbook{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
 .column3_section1{
   float: left;
   height: 200px;
   width: 30%;
   border: solid green;
+}
+.column1_section1{
+  /* debug */
+  float: left;
+  /* margin-right: 5%; */
+  height: 200px;
+  width: 50%;
+  border: solid green;
+  /*FINE debug*/
 }
 .column_section1{
   /* debug */
