@@ -15,7 +15,7 @@
   padding: 5px;
   color: white;
 }
-.section_box{
+.section_box {
   /* debug */
   margin: 20px 0 ;
   height: 200px;
@@ -25,12 +25,6 @@
 }
 
 .box{
-  /* debug */
-  /* width: 50%; */
-  /* height: 50px; */
-  /* background-color:green; */
-  /* border: solid; */
-  /* FINE debug */
   display: inline-block;
   float: left;
 }
@@ -216,8 +210,46 @@ ul#menu_box3 li a {
 .footer_back{
   /* debug */
   margin: 20px 0 ;
-  height: 200px;
+  /* height: 200px; */
   background-color:#2d3e50;
   /*border: solid;
   FINE debug*/
+}
+
+.footer_box{
+  /* debug */
+  margin: 20px 0 ;
+  height: 100px;
+  background-color:none;
+  border: solid;
+  /*FINE debug*/
+}
+.column_footer{
+  /* debug */
+  float: left;
+  height: 100%;
+  width: 25%;
+  border: solid green;
+  /*FINE debug*/
+}
+.footer_row{
+  /* debug */
+  height: 50%;
+  background-color:none;
+  border: solid green;
+  /*FINE debug*/
+}
+.footer_box_left{
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color:none;
+  border: solid green;
+}
+.footer_box_right{
+  float: right;
+  width: 20%;
+  height: 100%;
+  background-color:none;
+  border: solid green;
 }
