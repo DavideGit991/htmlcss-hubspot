@@ -200,3 +200,24 @@ ul#menu_box3 li a {
   border: solid green;
   /*FINE debug*/
 }
+
+/* proprieta' sezione 3 */
+.column_section3{
+  /* debug */
+  float: left;
+  /* margin-right: 5%; */
+  height: 100%;
+  width: 50%;
+  border: solid green;
+  /*FINE debug*/
+}
+
+/* PROPRIETA' FOOTER */
+.footer_back{
+  /* debug */
+  margin: 20px 0 ;
+  height: 200px;
+  background-color:#2d3e50;
+  /*border: solid;
+  FINE debug*/
+}
