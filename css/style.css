@@ -21,7 +21,7 @@
   margin: 50px 0 ;
   /* height: 200px; */
   background-color:none;
-  border: solid;
+  /* border: solid; */
   /*FINE debug*/
 }
 .text_centre{
@@ -59,6 +59,14 @@ i{
   margin-right: 2px;
   font-size: 15px;
   color:#ff7a59;
+}
+.t_white{
+  font-size: 40px;
+  color: white;
+}
+.p_white{
+  font-size: 20px;
+  color: white;
 }
   /* PROPRIETAì PAGINA */
   /* PROPRIETA' NAV */
@@ -147,8 +155,8 @@ ul#menu_box3 li a {
 .jambo_written{
   width: 350px;
   position: absolute;
-  left: 300px;
-  top: 140px;
+  left: 16%;
+  top: 9%;
   z-index: 100;
   /* debug
   width: 20%;
@@ -256,18 +264,30 @@ margin: 30px auto;
 }
 
 
-
-
 /* PROPRIETA' SEZIONE 2 */
 
 .section2_back{
   /* debug */
   margin: 20px 0 ;
+  padding: 10px 0;
   /* height: 200px; */
   background-color:#00bda5;
   /*border: solid;
   FINE debug*/
 }
+.section2_box {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  /* debug */
+  /* position: relative; */
+  margin: 50px 0 ;
+  /* height: 200px; */
+  background-color:none;
+  /* border: solid; */
+  /*FINE debug*/
+}
+
 .column_section2{
   /* debug */
   float: left;
@@ -276,6 +296,41 @@ margin: 30px auto;
   width: 25%;
   border: solid green;
   /*FINE debug*/
+}
+.griglia_1, .griglia_2, .griglia_3{
+text-align: center;
+float: left;
+height: 50%;
+width: 25%;
+border-bottom: solid 1px white;
+border-right: solid 1px white;
+padding: 10px 0 ;
+}
+.griglia_4{
+  text-align: center;
+  float: left;
+  height: 50%;
+  width: 25%;
+  padding:10px 0 ;
+  border-bottom: solid 1px white;
+}
+.griglia_5,.griglia_6, .griglia_7{
+  text-align: center;
+  float: left;
+  height: 50%;
+  width: 25%;
+  padding:10px 0 ;
+  /* margin-top: 10px; */
+  border-right: solid 1px white;
+}
+.griglia_8{
+  text-align: center;
+  float: left;
+  height: 50%;
+  width: 25%;
+  padding:10px 0 ;
+
+  /* margin-top: 10px; */
 }
 
 /* proprieta' sezione 3 */
