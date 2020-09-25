@@ -18,7 +18,7 @@
 .section_box {
   /* debug */
   position: relative;
-  margin: 20px 0 ;
+  margin: 50px 0 ;
   /* height: 200px; */
   background-color:none;
   border: solid;
@@ -48,8 +48,17 @@
   color: #33475b;
 }
 p{
-  font-size: 12px;
+  font-size: 18px;
   margin: 20px 0;
+}
+span{
+  font-size: 20px;
+  margin-right: 10px;
+}
+i{
+  margin-right: 2px;
+  font-size: 15px;
+  color:#ff7a59;
 }
   /* PROPRIETAì PAGINA */
   /* PROPRIETA' NAV */
@@ -165,11 +174,12 @@ ul#menu_box3 li a {
 /* PROPRIETà SECTIONE1BOX1 */
 .learnmore{
 padding: 15px;
-margin-left: 108px;
+margin-left: 37%;
 }
-.imgcube, .imgbook{
+.imgcube, .imgbook, .imgmarketinghub{
   display: block;
-  margin-left: auto;
+  margin-bottom: 15PX;
+  margin-left: 30%;
   margin-right: auto;
   width: 35%;
   height: auto;
@@ -185,24 +195,60 @@ margin-left: 108px;
   width: 30%;
   border: solid green;
 }
-.column1_section1{
+
+.column1_section1 {
   /* debug */
   float: left;
   /* margin-right: 5%; */
-  height: 200px;
-  width: 50%;
+  /* height: 200px; */
+  width: 40%;
   border: solid green;
   /*FINE debug*/
+}
+.column2_book{
+  /* debug */
+  margin-top: 15px;
+  float: left;
+  /* margin-right: 5%; */
+  height: 200px;
+  width: 60%;
+  /* border: solid green; */
+  /*FINE debug*/
+
 }
 .column_section1{
   /* debug */
   float: left;
   margin-right: 5%;
-  height: 200px;
+  /* height: 200px; */
   width: 30%;
-  border: solid green;
+  border: solid lightgrey;
   /*FINE debug*/
 }
+.conteiner_marketinghub{
+  text-align: center;
+  margin: 2px auto;
+  width: 80%;
+  padding-bottom: 20px;
+  border-bottom: solid 2px #33475b ;
+}
+.conteiner2_marketinghub{
+text-align: center;
+width: 80%;
+margin: 30px auto;
+
+}
+.not_align_centre{
+  margin-top: 20px;
+  text-align: left;
+}
+.learnmore_marketinghub{
+  padding: 15px;
+  margin-top: 20px;
+}
+
+
+
 
 /* PROPRIETA' SEZIONE 2 */
 
