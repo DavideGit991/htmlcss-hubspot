@@ -232,7 +232,7 @@ margin-left: 37%;
 }
 .column2_book{
   /* debug */
-  margin-top: 15px;
+  margin-top: 35px;
   float: left;
   /* margin-right: 5%; */
   height: 200px;
@@ -257,7 +257,7 @@ margin-left: 37%;
 }
 .conteiner_marketinghub{
   text-align: center;
-  margin: 2px auto;
+  margin: 30px auto;
   width: 80%;
   padding-bottom: 20px;
   border-bottom: solid 2px #33475b ;
@@ -486,11 +486,29 @@ ul#menu_box5 li a {
   font-size: 15px;
   text-decoration: none;
 }
+.container_social{
+  color: white;
+  margin-top: 40px;
+  text-align: left;
+}
+.social{
+  fill: white;
+  height: 24px;
+}
+ul#menu_box_social li {
+  /* font-family: sans-serif; */
+  display: inline-block;
+  padding: 0 2%;
+    }
+ul#menu_box_social li a {
+  /* font-size: 15px; */
+  text-decoration: none;
 
+}
 .footer_row{
   /* debug */
   /* height: 50%; */
-  background-color:none;
+  /* background-color:none; */
   /* border: solid green; */
   /*FINE debug*/
 }
@@ -521,6 +539,7 @@ ul#menu_box5 li a {
   margin: 30px 0;
   text-align: right;
 }
+
 ul#menu_box6 li {
   font-family: sans-serif;
   display: inline-block;
