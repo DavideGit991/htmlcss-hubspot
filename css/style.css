@@ -61,7 +61,7 @@ span{
 h4,.white{
   color: white;
 }
-i{
+#check{
   margin-right: 2px;
   font-size: 15px;
   color:#ff7a59;
@@ -491,14 +491,14 @@ ul#menu_box5 li a {
   margin-top: 40px;
   text-align: left;
 }
-.social{
-  fill: white;
+#social{
+  color: white;
   height: 24px;
 }
 ul#menu_box_social li {
   /* font-family: sans-serif; */
   display: inline-block;
-  padding: 0 2%;
+  padding: 0 4%;
     }
 ul#menu_box_social li a {
   /* font-size: 15px; */
